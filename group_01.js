@@ -49,7 +49,7 @@ function fun(array) {
     var bonusAmount = bonus * array[2];
     var salary =  bonusAmount + array[2];
 
-    empArray[1] = bonus ;
+    empArray[1] = bonus;
     empArray[2] = salary;
     empArray[3] = Math.round(bonusAmount);
 
@@ -57,5 +57,10 @@ function fun(array) {
 
     empSTIArray.push(empArray);
     console.log(empArray);
-    document.write(empArray + "<br>");
+    //document.write(empArray + "<br>");
+
+    for (i = 0; i < empArray.length; i++) {
+      document.write(empArray[i] + " ");
+    }
+  document.write("<br>");
 }
