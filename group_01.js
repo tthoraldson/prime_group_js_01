@@ -57,4 +57,5 @@ function fun(array) {
 
     empSTIArray.push(empArray);
     console.log(empArray);
+    document.write(empArray + "<br>");
 }
